@@ -1,0 +1,10 @@
+/node_modules/
+/*.tgz
+/tmp/
+
+# specs
+/ap-*.json
+/ca-*.json
+/eu-*.json
+/sa-*.json
+/us-*.json

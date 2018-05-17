@@ -1,0 +1,38 @@
+{
+  "name": "cfn-spec",
+  "version": "0.0.1",
+  "description": "CloudFormation resource specification",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-cfn-spec/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.9.0"
+  },
+  "homepage": "https://github.com/nak2k/node-cfn-spec",
+  "keywords": [
+    "aws",
+    "cloudformation"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-cfn-spec.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "tape test/test*.js",
+    "update-specs": "node install-specs.js"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "urls.json",
+    "ap-*.json",
+    "ca-*.json",
+    "eu-*.json",
+    "sa-*.json",
+    "us-*.json"
+  ]
+}
